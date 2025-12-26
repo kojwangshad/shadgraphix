@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> SHAD GRAPHICS | Branding Agency</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+
+<header class="navbar">
+  <div class="logo">
+    <img src="images/shad logo.png" alt="Shad Graphics Logo">
+  </div>
+  
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+    <a href="#courses">courses</a>
+  </nav>
+</header>
+
+<section id="home" class="hero reveal">
+  <h1>We Build Powerful Brands</h1>
+  <p>Creative branding, identity & digital design</p>
+  <button onclick="scrollToSection('portfolio')">View Work</button>
+</section>
+
+<section id="services" class="section">
+  <h2 class="reveal">Our Expertise</h2>
+  <div class="services">
+    <div class="service-card reveal">
+      <h3>Brand Identity</h3>
+      <p>Logo, colors & visual language.</p>
+    </div>
+    <div class="service-card reveal">
+      <h3>Graphic Design</h3>
+      <p>Marketing & social media designs.</p>
+    </div>
+    <div class="service-card reveal">
+      <h3>Creative Direction</h3>
+      <p>Strategy-driven visual solutions.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="section dark">
+  <h2 class="reveal">Done,Approved and Delivered</h2>
+  <div class="portfolio">
+    <div class="portfolio-item reveal">
+      <img src="images/event BANNER.jpg" alt="Project 1">
+      <img src="images/bottle brand.jfif" alt="Project 1">
+      <img src="images/calender.jfif" alt="Project 1">
+      <img src="images/food.jfif" alt="Project 1">
+      <img src="images/photo mount.jpeg" alt="Project 1">
+      <div class="overlay">Brand Identity</div>
+    </div>
+    <div class="portfolio-item reveal">
+      <img src="images/branding.png" alt="Project ">
+      <img src="images/event BANNER.jpg" alt="Project ">
+      <img src="images/church.jfif" alt="Project ">
+      <img src="images/download.jfif" alt="Project ">
+      <div class="overlay">Logo Design</div>
+    </div>
+    <div class="portfolio-item reveal">
+      <img src="images/rollup.jfif" alt="Project 3">
+      <img src="images/down.jfif" alt="Project 3">
+      <img src="images/birth.jfif" alt="Project 3">
+      <img src="images/design.jfif" alt="Project 3">
+      <div class="overlay">Visual Campaign</div>
+    </div>
+  </div>
+</section>
+
+<a href="https://wa.me/+254759445474" class="whatsapp-btn" target="_blank">
+  <img src="images/WhatsApp_icon.png" alt="WhatsApp" width="50">
+</a>
+
+
+
+
+
+
+<section id="contact" class="section">
+  <h2 class="reveal">Let’s Work Together</h2>
+  <form id="contactForm" class="reveal">
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p id="formMessage"></p>
+</section>
+
+
+<footer>
+  <p>© 2025 shadgraphics</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
